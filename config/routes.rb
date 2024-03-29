@@ -12,4 +12,7 @@ Rails.application.routes.draw do
   get "about", to: "about#index"
   #GET / Contact
   get "contact", to: "contact#index"
+  #GET / Services
+  get 'contact', to: 'contacts#index', as: 'new_contact'
+  post 'contact', to: 'contacts#create', as: 'create_contact'
 end
