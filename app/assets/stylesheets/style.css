@@ -1,0 +1,59 @@
+body {
+    background-color: #fffbf5;
+    font-family: "Noto Sans SC", sans-serif; 
+    flex-direction: column;
+}
+.content-wrapper {
+    flex-grow: 1;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.hero {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    min-height: 700px;
+
+}
+
+.main-hero h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.main-hero h4{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+
+.about {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    min-height: 700px;
+}
+
+.contact {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    min-height: 700px;
+    padding-top: 100px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color:#fdf8f0;
+    margin: 0 auto;
+  }
